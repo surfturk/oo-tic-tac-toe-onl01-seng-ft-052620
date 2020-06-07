@@ -106,3 +106,10 @@ def over?
  
 end  
 
+
+def winner
+  
+end  
+
+
+
