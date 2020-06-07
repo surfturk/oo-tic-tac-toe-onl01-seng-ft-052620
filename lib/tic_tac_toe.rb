@@ -76,7 +76,7 @@ end
 def won?
   
     WIN_COMBINATIONS.each do |win_combo|
-    # @board[0]
+    # @board[0] win_combo[0]
  end
 end  
 
