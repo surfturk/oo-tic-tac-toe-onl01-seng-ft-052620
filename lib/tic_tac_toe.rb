@@ -47,7 +47,7 @@ def valid_move?(move)
       true
     else  
       false
-  
+  end
 end  
 
 
