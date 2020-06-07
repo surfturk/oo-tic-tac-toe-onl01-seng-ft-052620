@@ -122,9 +122,9 @@ def play
     
     turn until over?
    
-    won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
+    won? ? puts("Congratulations #{winner}!") 
     
-    draw? puts()
+    draw? puts("Cat's Game!")
     
     puts "Would you like to play again? (Y or N)"
    
