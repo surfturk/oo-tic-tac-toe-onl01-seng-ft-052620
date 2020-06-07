@@ -74,8 +74,9 @@ def current_player
 end  
 
 def won?
-  if @board.include?(WIN_COMBINATIONS)
-    
+  new_array = []
+   @board.include?(WIN_COMBINATIONS) 
+    new_array << WIN_COMBINATIONS
   
 end  
 
