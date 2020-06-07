@@ -77,6 +77,7 @@ def won?
   
     WIN_COMBINATIONS.each do |win_combo|
     # @board[0] win_combo[0]
+    # comparing elements
  end
 end  
 
