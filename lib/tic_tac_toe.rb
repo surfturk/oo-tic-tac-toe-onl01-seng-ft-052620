@@ -76,9 +76,8 @@ end
 def won?
   binding.pry
   new_array = []
-  if @board.include?(WIN_COMBINATIONS) 
-    new_array << WIN_COMBINATIONS
-    new_array
+   @board.each do |index|
+     
   else
     false
   end
