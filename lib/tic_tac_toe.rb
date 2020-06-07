@@ -64,7 +64,7 @@ end
 
 
 def turn_count
-  @board.all?
+  @@board.count{|token| token == "X" || token == "O"}
 end  
 
 
