@@ -44,7 +44,7 @@ def position_taken?(index)
 
 def valid_move?(move)
  
-  index.between?(0,8) && !position_taken?(index)
+  move.between?(0,8) && !position_taken?(move)
   
   
 end  
