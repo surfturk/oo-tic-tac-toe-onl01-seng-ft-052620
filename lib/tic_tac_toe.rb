@@ -15,7 +15,9 @@ def initialize(board = nil)
 end  
 
 
-
+def display_board
+  puts 
+end  
 
 
 
