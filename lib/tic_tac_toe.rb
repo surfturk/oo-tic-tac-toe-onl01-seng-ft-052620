@@ -39,7 +39,6 @@ end
 def position_taken?(index)
  
  if @board.include?(index)
-   binding.pry
    true
  end  
 end  
