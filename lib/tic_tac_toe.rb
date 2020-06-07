@@ -50,7 +50,7 @@ end
 
 
 def turn
- puts "Player #{current_player}, please enter a number 1-9:"
+ puts "Player, please enter a number 1-9:"
     input = gets.strip
     index = input_to_index(input)
     cp = current_player
