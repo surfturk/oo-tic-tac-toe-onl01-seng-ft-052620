@@ -74,9 +74,9 @@ def current_player
 end  
 
 def won?
-  binding.pry
+  
     WIN_COMBINATIONS.each do |win_combo|
-     
+     binding.pry
   else
     false
   end
