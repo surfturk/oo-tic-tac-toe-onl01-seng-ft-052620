@@ -116,5 +116,12 @@ def winner
   
 end  
 
+
+def play
+  
+  
+end  
+
+
 end
 
