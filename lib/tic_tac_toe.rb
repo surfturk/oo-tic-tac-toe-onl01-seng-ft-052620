@@ -75,7 +75,7 @@ end
 
 def won?
   binding.pry
-    WIN_COMBINATIONS.each do |index|
+    WIN_COMBINATIONS.each do |win_combo|
      
   else
     false
