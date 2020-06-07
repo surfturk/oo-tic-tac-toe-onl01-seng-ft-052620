@@ -98,5 +98,5 @@ def draw?
   
   @board.full || !@board.won
   
-
+ end
 end  
