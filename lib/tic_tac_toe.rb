@@ -25,6 +25,9 @@ def display_board
 end  
 
 def input_to_index(string)
+  #convert string to integer
+  #convert integer to index on board
+  #return index
   
   
   
