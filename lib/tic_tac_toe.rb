@@ -68,8 +68,11 @@ def turn_count
 end  
 
 def current_player
-  
-  
+  if turn_count == "X"
+    turn
+  else
+    turn_count == "O"
+    
 end  
 
 
