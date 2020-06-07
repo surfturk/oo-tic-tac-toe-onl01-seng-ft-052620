@@ -98,7 +98,7 @@ def draw?
   
   !won? && full?
   
- end
+ 
 end  
 
 def over?
@@ -111,5 +111,5 @@ def winner
   
 end  
 
-
+end
 
