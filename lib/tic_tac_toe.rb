@@ -76,7 +76,7 @@ end
 def won?
   binding.pry
   WIN_COMBINATIONS.each do |win_combo|
-   @board[win_combo[0..2]].each do |index|
+   @board[win_combo[0]].each do |index|
        index == "X" || index == "O"
         win_combo
        
