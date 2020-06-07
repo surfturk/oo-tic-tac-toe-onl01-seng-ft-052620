@@ -76,7 +76,7 @@ end
 def won?
   
     WIN_COMBINATIONS.each do |win_combo|
-     binding.pry
+    # @board[0]
  end
 end  
 
