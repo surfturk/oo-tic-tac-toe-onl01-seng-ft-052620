@@ -76,7 +76,7 @@ end
 def won?
   
   WIN_COMBINATIONS.each do |win_combo|
-   @board[win_combo[0]] == "X" || @board[win_combo[0]] == "O"
+   @board[win_combo[0,1,2]] == "X" || @board[win_combo[0,1,2]] == "O"
       win_combo
     end 
     false
