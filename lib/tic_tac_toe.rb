@@ -50,14 +50,16 @@ end
 
 
 def turn(move)
-  puts "Choose a position between 1-9"
-  move.to_i(index)
-  if index = valid_move
-    index.move
-    puts @board
-  else
-    "Choose a position between 1-9"
-  end
+ puts "Player #{current_player}, please enter a number 1-9:"
+    input = gets.strip
+    index = input_to_index(input)
+    cp = current_player
+    if valid_move?(index)
+      move(index, cp)
+      display_board
+    else
+      turn
+    end
 end  
 
 
