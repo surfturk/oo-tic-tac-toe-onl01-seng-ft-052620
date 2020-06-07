@@ -74,8 +74,8 @@ def current_player
 end  
 
 def won?
-  
-  
+  if @board.include?(WIN_COMBINATIONS)
+    
   
 end  
 
