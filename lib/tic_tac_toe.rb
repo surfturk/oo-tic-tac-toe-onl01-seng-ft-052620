@@ -43,8 +43,10 @@ def position_taken?(index)
 
 
 def valid_move?(move)
-  @board.include?(move) && @board[index].nil
-  
+  if @board.include?(move) && @board[index].nil
+      true
+    else  
+      false
   
 end  
 
