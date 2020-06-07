@@ -74,6 +74,7 @@ def current_player
 end  
 
 def won?
+  binding.pry
   new_array = []
   if @board.include?(WIN_COMBINATIONS) 
     new_array << WIN_COMBINATIONS
