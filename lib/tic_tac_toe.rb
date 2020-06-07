@@ -27,7 +27,6 @@ end
 def input_to_index(string)
  
   new_index = string.to_i
-  binding.pry
   #convert integer to index on board
   #return index
   
