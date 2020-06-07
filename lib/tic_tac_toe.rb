@@ -72,7 +72,8 @@ def current_player
     turn
   else
     turn_count == "O"
-    
+    turn
+  end  
 end  
 
 
