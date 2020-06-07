@@ -76,7 +76,9 @@ end
 def won?
   
   WIN_COMBINATIONS.each do |win_combo|
-   @board[win_combo[0..2]]
+   @board[win_combo[0..2]].each do |index|
+      if index == 
+  end   
  end
 end  
 
