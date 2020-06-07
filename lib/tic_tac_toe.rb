@@ -75,8 +75,7 @@ end
 
 def won?
   binding.pry
-  new_array = []
-   @board.each do |index|
+    WIN_COMBINATIONS.each do |index|
      
   else
     false
