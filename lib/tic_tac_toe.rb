@@ -26,9 +26,8 @@ end
 
 def input_to_index(string)
  
-  new_index = string.to_i
-  #convert integer to index on board
-  #return index
+  string.to_i - 1
+  
   
   
   
