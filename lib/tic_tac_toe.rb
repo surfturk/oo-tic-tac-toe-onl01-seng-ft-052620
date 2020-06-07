@@ -38,7 +38,7 @@ end
 
 def position_taken?(index)
   @board.include?(index)
-  
+    
  
 end  
 
