@@ -37,7 +37,7 @@ def move(index, token = "X")
 end  
 
 def position_taken?(index)
-  @board.include?(index)
+ !(@board[index].nil? || @board[index] == " ")
     
  
 end  
