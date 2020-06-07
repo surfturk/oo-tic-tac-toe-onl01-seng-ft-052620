@@ -63,7 +63,9 @@ def turn
 end  
 
 
-
+def turn_count
+  
+end  
 
 
 
