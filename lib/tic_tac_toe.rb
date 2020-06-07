@@ -70,7 +70,7 @@ end
 def current_player
   
   turn_count % 2 == 0 ? "X" : "O"
-binding.pry
+
 end  
 
 def won?
