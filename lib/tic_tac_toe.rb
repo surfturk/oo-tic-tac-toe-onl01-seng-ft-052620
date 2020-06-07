@@ -75,8 +75,10 @@ end
 
 def won?
   new_array = []
-   @board.include?(WIN_COMBINATIONS) 
+  if @board.include?(WIN_COMBINATIONS) 
     new_array << WIN_COMBINATIONS
+  else
+    false
   
 end  
 
