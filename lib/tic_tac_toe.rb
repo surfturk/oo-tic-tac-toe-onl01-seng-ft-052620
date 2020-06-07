@@ -77,7 +77,7 @@ def won?
   
     WIN_COMBINATIONS.each do |win_combo|
      binding.pry
- 
+ end
 end  
 
 def full?
