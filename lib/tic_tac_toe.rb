@@ -50,7 +50,13 @@ end
 
 
 def turn(move)
-  
+  puts "Choose a position between 1-9"
+  move.to_i(index)
+  if index = valid_move
+    index.move
+    puts @board
+  else
+    "Choose a position between 1-9"
   
 end  
 
