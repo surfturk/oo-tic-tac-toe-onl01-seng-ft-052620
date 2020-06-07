@@ -25,6 +25,7 @@ def display_board
 end  
 
 def input_to_index(string)
+  binding.pry
   string.to_i
   #convert integer to index on board
   #return index
