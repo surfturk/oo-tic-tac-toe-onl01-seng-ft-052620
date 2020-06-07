@@ -89,7 +89,7 @@ def won?
  end
 
 def full?
-  
+  !@board.any?{|x| x == "" || x == " "}
   
 end  
 
