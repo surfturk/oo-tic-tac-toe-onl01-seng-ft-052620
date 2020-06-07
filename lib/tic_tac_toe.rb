@@ -37,6 +37,7 @@ def move(index, token = "X")
 end  
 
 def position_taken?(index)
+  binding.pry
  if @board.include?(index)
    true
  end  
