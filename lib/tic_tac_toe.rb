@@ -118,10 +118,8 @@ end
 
 
 def play
-  
+   turn until over?
     
-    turn until over?
-    # Congratulate the winner
     won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
 end  
 
