@@ -79,7 +79,6 @@ def won?
    @board[win_combo[0,1,2]] == "X" || @board[win_combo[0,1,2]] == "O"
       win_combo
     end 
-    false
 end  
 
 def full?
