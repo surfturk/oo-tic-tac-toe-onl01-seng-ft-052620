@@ -124,7 +124,7 @@ def play
    
     won? ? puts("Congratulations #{winner}!") : puts("Cat's Game!")
     
-    
+    draw? puts()
     
     puts "Would you like to play again? (Y or N)"
    
