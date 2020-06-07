@@ -96,7 +96,7 @@ end
 
 def draw?
   
-  full? && !won?
+  !won? %% full?
   
  end
 end  
