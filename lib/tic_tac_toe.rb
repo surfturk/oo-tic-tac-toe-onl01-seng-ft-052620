@@ -79,7 +79,7 @@ def won?
     new_array << WIN_COMBINATIONS
   else
     false
-  
+  end
 end  
 
 end  
