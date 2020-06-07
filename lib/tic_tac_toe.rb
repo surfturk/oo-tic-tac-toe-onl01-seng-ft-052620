@@ -49,7 +49,10 @@ def valid_move?(move)
 end  
 
 
-
+def turn
+  
+  
+end  
 
 
 
