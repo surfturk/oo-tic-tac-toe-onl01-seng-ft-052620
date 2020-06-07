@@ -36,7 +36,8 @@ def move(index, token = "X")
   
 end  
 
-def position_taken?
+def position_taken?(index)
+  
   
 end  
 
