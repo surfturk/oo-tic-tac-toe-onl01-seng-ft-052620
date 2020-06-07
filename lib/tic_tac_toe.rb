@@ -79,7 +79,6 @@ def won?
    @board[win_combo[0..2]].each do |index|
       if index == "X"|| index == "O"
         win_combo
-        
     end    
   end   
  end
