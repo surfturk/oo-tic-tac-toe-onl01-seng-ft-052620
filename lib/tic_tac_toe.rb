@@ -42,7 +42,8 @@ def position_taken?(index)
  end  
 
 
-def valid_move?
+def valid_move?(move)
+  
   
   
 end  
