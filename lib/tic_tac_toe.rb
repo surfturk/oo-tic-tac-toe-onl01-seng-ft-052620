@@ -77,7 +77,8 @@ def won?
   
   WIN_COMBINATIONS.each do |win_combo|
    if @board[win_combo[0]] == "x"
-    
+      win_combo
+      
    
    
     
