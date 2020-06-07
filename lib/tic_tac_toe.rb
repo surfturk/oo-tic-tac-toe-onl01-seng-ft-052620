@@ -81,10 +81,7 @@ def won?
      else 
        @board[win_combo[0]] == "O"
    
-   
-    
-       
-   end  
+    end  
  end
 end  
 
