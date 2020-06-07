@@ -100,3 +100,9 @@ def draw?
   
  end
 end  
+
+def over?
+  won? || draw?
+  
+end  
+
