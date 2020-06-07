@@ -50,7 +50,6 @@ end
 
 
 def turn(move)
-  binding.pry
   puts "Choose a position between 1-9"
   move.to_i(index)
   if index = valid_move
