@@ -46,7 +46,6 @@ def valid_move?(move)
  
   move.between?(0,8) && !position_taken?(move)
   
-  
 end  
 
 
